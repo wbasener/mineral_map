@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir L.Control.Appearance.js)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

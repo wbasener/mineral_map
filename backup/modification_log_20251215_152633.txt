@@ -1,0 +1,10 @@
+Leaflet.Control.Appearance Modification Log
+==================================================
+
+Created backup: c:\Users\billb\Documents\GitHub\mineral_map\index.backup_20251215_152633.html
+Loaded c:\Users\billb\Documents\GitHub\mineral_map\index.html (8107852 characters)
+Found 4 tile layers and 18 GeoJSON layers
+Added Leaflet.Control.Appearance plugin references
+Modified 18 GeoJSON layers with appearance options
+Replaced L.control.layers() with L.control.appearance()
+Saved modified content to c:\Users\billb\Documents\GitHub\mineral_map\index.html
