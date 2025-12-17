@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_de98537d2c5ff3e5071b8bff867b9b6e {
+                #map_8f6e8b65ab04b596ea72a07a828a50f8 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -70,14 +70,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_de98537d2c5ff3e5071b8bff867b9b6e" ></div>
+            <div class="folium-map" id="map_8f6e8b65ab04b596ea72a07a828a50f8" ></div>
         
 </body>
 <script>
     
     
-            var map_de98537d2c5ff3e5071b8bff867b9b6e = L.map(
-                "map_de98537d2c5ff3e5071b8bff867b9b6e",
+            var map_8f6e8b65ab04b596ea72a07a828a50f8 = L.map(
+                "map_8f6e8b65ab04b596ea72a07a828a50f8",
                 {
                     center: [43.9127219550248, 98.61441789151958],
                     crs: L.CRS.EPSG3857,
@@ -89,13 +89,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_de98537d2c5ff3e5071b8bff867b9b6e);
+            L.control.scale().addTo(map_8f6e8b65ab04b596ea72a07a828a50f8);
 
             
 
         
     
-            var tile_layer_531c637a914ebd7fa413cceefaefd4e3 = L.tileLayer(
+            var tile_layer_057126a7b9663c16af4647d1a63991a7 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -112,10 +112,10 @@
             );
         
     
-            tile_layer_531c637a914ebd7fa413cceefaefd4e3.addTo(map_de98537d2c5ff3e5071b8bff867b9b6e);
+            tile_layer_057126a7b9663c16af4647d1a63991a7.addTo(map_8f6e8b65ab04b596ea72a07a828a50f8);
         
     
-            var tile_layer_97eec14bfce085e14a119c76e3866b9b = L.tileLayer(
+            var tile_layer_de436005bae96b056e1fe4b1dd443db0 = L.tileLayer(
                 "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -132,10 +132,10 @@
             );
         
     
-            tile_layer_97eec14bfce085e14a119c76e3866b9b.addTo(map_de98537d2c5ff3e5071b8bff867b9b6e);
+            tile_layer_de436005bae96b056e1fe4b1dd443db0.addTo(map_8f6e8b65ab04b596ea72a07a828a50f8);
         
     
-            var tile_layer_a45eff73ac4ee33584775875fadcfd10 = L.tileLayer(
+            var tile_layer_f8151aad7c06dee56826a87c873b1b50 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -152,10 +152,10 @@
             );
         
     
-            tile_layer_a45eff73ac4ee33584775875fadcfd10.addTo(map_de98537d2c5ff3e5071b8bff867b9b6e);
+            tile_layer_f8151aad7c06dee56826a87c873b1b50.addTo(map_8f6e8b65ab04b596ea72a07a828a50f8);
         
     
-            var tile_layer_8231d33c77989b8dd411c0a6bbb59420 = L.tileLayer(
+            var tile_layer_6c670b5eab48d0a212f100cb0b542fa0 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -172,10 +172,10 @@
             );
         
     
-            tile_layer_8231d33c77989b8dd411c0a6bbb59420.addTo(map_de98537d2c5ff3e5071b8bff867b9b6e);
+            tile_layer_6c670b5eab48d0a212f100cb0b542fa0.addTo(map_8f6e8b65ab04b596ea72a07a828a50f8);
         
     
-        function geo_json_4baffd9d28aa72f46b4bed12c0867bc3_styler(feature) {
+        function geo_json_e0b6e31bc52e7c2893c2a3b472737dde_styler(feature) {
             switch(feature.properties.probability) {
                 case "37%": case "2%": case "67%": case "15%": case "42%": case "55%": case "22%": 
                     return {"color": "black", "fillColor": "#ff0000", "fillOpacity": 0.5, "opacity": 0.0, "weight": 0};
@@ -183,27 +183,27 @@
                     return {"color": "black", "fillColor": "#ff0000", "fillOpacity": 0.4, "opacity": 0.0, "weight": 0};
             }
         }
-        function geo_json_4baffd9d28aa72f46b4bed12c0867bc3_highlighter(feature) {
+        function geo_json_e0b6e31bc52e7c2893c2a3b472737dde_highlighter(feature) {
             switch(feature.properties.probability) {
                 default:
                     return {"fillOpacity": 0.75, "weight": 3};
             }
         }
 
-        function geo_json_4baffd9d28aa72f46b4bed12c0867bc3_onEachFeature(feature, layer) {
+        function geo_json_e0b6e31bc52e7c2893c2a3b472737dde_onEachFeature(feature, layer) {
             (
         function(feature, layer) {
             var props = feature.properties;
-            
+
             // Basic Info
             var htmlContent = "<div style='font-family: sans-serif; font-size: 14px; width: 250px;'>" +
-                              "<h4 style='margin-bottom: 5px; color: #2c3e50;'>" + props.Mineral + "</h4>" +
-                              "<b>Abundance:</b> " + props.Abundance + "<br>" +
-                              "<b>Probability:</b> " + props.Probability + "<br><hr>";
+                              "<h4 style='margin-bottom: 5px; color: #2c3e50;'>" + props.mineral + "</h4>" +
+                              "<b>Abundance:</b> " + props.abundance + "<br>" +
+                              "<b>Probability:</b> " + props.probability + "<br><hr>";
 
             // Mixture Table
-            var mixMins = props['Mixture Minerals'];
-            var mixAbund = props['Mixture Abundances'];
+            var mixMins = props.mixture_minerals;
+            var mixAbund = props.mixture_abundances;
 
             if (mixMins && mixAbund && mixMins.length > 0) {
                 htmlContent += "<div style='margin-top: 10px;'>" +
@@ -228,34 +228,34 @@
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                            geo_json_4baffd9d28aa72f46b4bed12c0867bc3.resetStyle(e.target);
+                            geo_json_e0b6e31bc52e7c2893c2a3b472737dde.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_4baffd9d28aa72f46b4bed12c0867bc3_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_e0b6e31bc52e7c2893c2a3b472737dde_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
             });
         };
-        var geo_json_4baffd9d28aa72f46b4bed12c0867bc3 = L.geoJson(null, {
-                onEachFeature: geo_json_4baffd9d28aa72f46b4bed12c0867bc3_onEachFeature,
+        var geo_json_e0b6e31bc52e7c2893c2a3b472737dde = L.geoJson(null, {
+                onEachFeature: geo_json_e0b6e31bc52e7c2893c2a3b472737dde_onEachFeature,
             
-                style: geo_json_4baffd9d28aa72f46b4bed12c0867bc3_styler,
+                style: geo_json_e0b6e31bc52e7c2893c2a3b472737dde_styler,
             ...{
 }
         });
 
-        function geo_json_4baffd9d28aa72f46b4bed12c0867bc3_add (data) {
-            geo_json_4baffd9d28aa72f46b4bed12c0867bc3
+        function geo_json_e0b6e31bc52e7c2893c2a3b472737dde_add (data) {
+            geo_json_e0b6e31bc52e7c2893c2a3b472737dde
                 .addData(data);
         }
-            geo_json_4baffd9d28aa72f46b4bed12c0867bc3_add({"features": [{"geometry": {"coordinates": [[[98.61360525220664, 43.9132638145159], [98.61360525220664, 43.9127219550248], [98.6141470117486, 43.9127219550248], [98.6141470117486, 43.9121800955337], [98.61468877129056, 43.9121800955337], [98.61468877129056, 43.9127219550248], [98.61523053083252, 43.9127219550248], [98.61523053083252, 43.9132638145159], [98.61360525220664, 43.9132638145159]]], "type": "Polygon"}, "properties": {"abundance": "3.4+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.00829310342669487, 0.004256132990121841, 0.20650696754455566, 0.009879615157842636, 0.04832547530531883], "mixture_minerals": ["Calcite", "Dolomite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "37%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.62389868350387, 43.9132638145159], [98.62389868350387, 43.9121800955337], [98.62444044304583, 43.9121800955337], [98.62444044304583, 43.9132638145159], [98.62389868350387, 43.9132638145159]]], "type": "Polygon"}, "properties": {"abundance": "0.4%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.22183260321617126, 0.004840479232370853, 0.09738146513700485], "mixture_minerals": ["Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.4, "probability": "52%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.61739756900035, 43.9127219550248], [98.61739756900035, 43.9116382360426], [98.6179393285423, 43.9116382360426], [98.6179393285423, 43.9121800955337], [98.61848108808427, 43.9121800955337], [98.61848108808427, 43.9127219550248], [98.61739756900035, 43.9127219550248]]], "type": "Polygon"}, "properties": {"abundance": "0.7+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.002782645635306835, 0.22492265701293945, 0.0014524380676448345, 0.04929462447762489], "mixture_minerals": ["Calcite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "2%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.62444044304583, 43.9127219550248], [98.62444044304583, 43.9121800955337], [98.62335692396191, 43.9121800955337], [98.62335692396191, 43.9116382360426], [98.62281516441995, 43.9116382360426], [98.62281516441995, 43.9110963765515], [98.62335692396191, 43.9110963765515], [98.62335692396191, 43.9100126575693], [98.62498220258779, 43.9100126575693], [98.62498220258779, 43.9105545170604], [98.62606572167171, 43.9105545170604], [98.62606572167171, 43.9110963765515], [98.62660748121367, 43.9110963765515], [98.62660748121367, 43.9121800955337], [98.62552396212975, 43.9121800955337], [98.62552396212975, 43.9127219550248], [98.62444044304583, 43.9127219550248]]], "type": "Polygon"}, "properties": {"abundance": "3.1+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.008685549721121788, 0.01149711012840271, 0.24355368316173553, 0.0003739620151463896, 0.013490558601915836, 0.038725145161151886], "mixture_minerals": ["Calcite", "Dolomite", "Kaolinite", "Lepidolite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "67%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.61197997358076, 43.9100126575693], [98.61197997358076, 43.908928938587096], [98.61360525220664, 43.908928938587096], [98.61360525220664, 43.909470798078196], [98.61252173312272, 43.909470798078196], [98.61252173312272, 43.9100126575693], [98.61197997358076, 43.9100126575693]]], "type": "Polygon"}, "properties": {"abundance": "0.9+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.005666555371135473, 0.05190316215157509, 0.2129291146993637, 0.06637589633464813, 0.03515718877315521], "mixture_minerals": ["Calcite", "Dolomite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "15%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.61848108808427, 43.909470798078196], [98.61848108808427, 43.908387079095995], [98.61902284762623, 43.908387079095995], [98.61902284762623, 43.908928938587096], [98.61956460716819, 43.908928938587096], [98.61956460716819, 43.909470798078196], [98.61848108808427, 43.909470798078196]]], "type": "Polygon"}, "properties": {"abundance": "2.6+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.013691372238099575, 0.04881851747632027, 0.01800253801047802, 0.017610104754567146, 0.1421969085931778, 0.04692843183875084, 0.05273059383034706], "mixture_minerals": ["Albite", "Calcite", "Diaspore", "Dolomite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "42%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.60764589724508, 43.9078452196049], [98.60764589724508, 43.9067615006227], [98.608729416329, 43.9067615006227], [98.608729416329, 43.9062196411316], [98.61035469495488, 43.9062196411316], [98.61035469495488, 43.9067615006227], [98.61197997358076, 43.9067615006227], [98.61197997358076, 43.9073033601138], [98.6114382140388, 43.9073033601138], [98.6114382140388, 43.9078452196049], [98.61035469495488, 43.9078452196049], [98.61035469495488, 43.9073033601138], [98.60927117587096, 43.9073033601138], [98.60927117587096, 43.9078452196049], [98.60764589724508, 43.9078452196049]]], "type": "Polygon"}, "properties": {"abundance": "2+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.0017822260269895196, 0.0016138773644343019, 0.012243651784956455, 0.2937321662902832, 0.013752776198089123, 0.050303902477025986], "mixture_minerals": ["Albite", "Calcite", "Dolomite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "55%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.61956460716819, 43.9013429057117], [98.61956460716819, 43.9008010462206], [98.62010636671015, 43.9008010462206], [98.62010636671015, 43.9013429057117], [98.61956460716819, 43.9013429057117]]], "type": "Polygon"}, "properties": {"abundance": "0.7+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.2710155248641968, 0.013444109819829464], "mixture_minerals": ["Kaolinite", "Muscovite"], "opacity": 0.5, "probability": "22%"}, "type": "Feature"}], "type": "FeatureCollection"});
+            geo_json_e0b6e31bc52e7c2893c2a3b472737dde_add({"features": [{"geometry": {"coordinates": [[[98.61360525220664, 43.9132638145159], [98.61360525220664, 43.9127219550248], [98.6141470117486, 43.9127219550248], [98.6141470117486, 43.9121800955337], [98.61468877129056, 43.9121800955337], [98.61468877129056, 43.9127219550248], [98.61523053083252, 43.9127219550248], [98.61523053083252, 43.9132638145159], [98.61360525220664, 43.9132638145159]]], "type": "Polygon"}, "properties": {"abundance": "3.4+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.00829310342669487, 0.004256132990121841, 0.20650696754455566, 0.009879615157842636, 0.04832547530531883], "mixture_minerals": ["Calcite", "Dolomite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "37%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.62389868350387, 43.9132638145159], [98.62389868350387, 43.9121800955337], [98.62444044304583, 43.9121800955337], [98.62444044304583, 43.9132638145159], [98.62389868350387, 43.9132638145159]]], "type": "Polygon"}, "properties": {"abundance": "0.4%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.22183260321617126, 0.004840479232370853, 0.09738146513700485], "mixture_minerals": ["Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.4, "probability": "52%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.61739756900035, 43.9127219550248], [98.61739756900035, 43.9116382360426], [98.6179393285423, 43.9116382360426], [98.6179393285423, 43.9121800955337], [98.61848108808427, 43.9121800955337], [98.61848108808427, 43.9127219550248], [98.61739756900035, 43.9127219550248]]], "type": "Polygon"}, "properties": {"abundance": "0.7+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.002782645635306835, 0.22492265701293945, 0.0014524380676448345, 0.04929462447762489], "mixture_minerals": ["Calcite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "2%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.62444044304583, 43.9127219550248], [98.62444044304583, 43.9121800955337], [98.62335692396191, 43.9121800955337], [98.62335692396191, 43.9116382360426], [98.62281516441995, 43.9116382360426], [98.62281516441995, 43.9110963765515], [98.62335692396191, 43.9110963765515], [98.62335692396191, 43.9100126575693], [98.62498220258779, 43.9100126575693], [98.62498220258779, 43.9105545170604], [98.62606572167171, 43.9105545170604], [98.62606572167171, 43.9110963765515], [98.62660748121367, 43.9110963765515], [98.62660748121367, 43.9121800955337], [98.62552396212975, 43.9121800955337], [98.62552396212975, 43.9127219550248], [98.62444044304583, 43.9127219550248]]], "type": "Polygon"}, "properties": {"abundance": "3.1+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.008685549721121788, 0.01149711012840271, 0.24355368316173553, 0.0003739620151463896, 0.013490558601915836, 0.038725145161151886], "mixture_minerals": ["Calcite", "Dolomite", "Kaolinite", "Lepidolite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "67%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.61197997358076, 43.9100126575693], [98.61197997358076, 43.908928938587096], [98.61360525220664, 43.908928938587096], [98.61360525220664, 43.909470798078196], [98.61252173312272, 43.909470798078196], [98.61252173312272, 43.9100126575693], [98.61197997358076, 43.9100126575693]]], "type": "Polygon"}, "properties": {"abundance": "0.9+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.005666555371135473, 0.05190316215157509, 0.2129291146993637, 0.06637589633464813, 0.03515718877315521], "mixture_minerals": ["Calcite", "Dolomite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "15%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.61848108808427, 43.909470798078196], [98.61848108808427, 43.908387079095995], [98.61902284762623, 43.908387079095995], [98.61902284762623, 43.908928938587096], [98.61956460716819, 43.908928938587096], [98.61956460716819, 43.909470798078196], [98.61848108808427, 43.909470798078196]]], "type": "Polygon"}, "properties": {"abundance": "2.6+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.013691372238099575, 0.04881851747632027, 0.01800253801047802, 0.017610104754567146, 0.1421969085931778, 0.04692843183875084, 0.05273059383034706], "mixture_minerals": ["Albite", "Calcite", "Diaspore", "Dolomite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "42%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.60764589724508, 43.9078452196049], [98.60764589724508, 43.9067615006227], [98.608729416329, 43.9067615006227], [98.608729416329, 43.9062196411316], [98.61035469495488, 43.9062196411316], [98.61035469495488, 43.9067615006227], [98.61197997358076, 43.9067615006227], [98.61197997358076, 43.9073033601138], [98.6114382140388, 43.9073033601138], [98.6114382140388, 43.9078452196049], [98.61035469495488, 43.9078452196049], [98.61035469495488, 43.9073033601138], [98.60927117587096, 43.9073033601138], [98.60927117587096, 43.9078452196049], [98.60764589724508, 43.9078452196049]]], "type": "Polygon"}, "properties": {"abundance": "2+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.0017822260269895196, 0.0016138773644343019, 0.012243651784956455, 0.2937321662902832, 0.013752776198089123, 0.050303902477025986], "mixture_minerals": ["Albite", "Calcite", "Dolomite", "Kaolinite", "Montmorillite", "Muscovite"], "opacity": 0.5, "probability": "55%"}, "type": "Feature"}, {"geometry": {"coordinates": [[[98.61956460716819, 43.9013429057117], [98.61956460716819, 43.9008010462206], [98.62010636671015, 43.9008010462206], [98.62010636671015, 43.9013429057117], [98.61956460716819, 43.9013429057117]]], "type": "Polygon"}, "properties": {"abundance": "0.7+%", "color_b": 0, "color_g": 0, "color_r": 255, "mineral": "Alunite", "mixture_abundances": [0.2710155248641968, 0.013444109819829464], "mixture_minerals": ["Kaolinite", "Muscovite"], "opacity": 0.5, "probability": "22%"}, "type": "Feature"}], "type": "FeatureCollection"});
 
         
     
-    geo_json_4baffd9d28aa72f46b4bed12c0867bc3.bindTooltip(
+    geo_json_e0b6e31bc52e7c2893c2a3b472737dde.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -290,29 +290,29 @@
 });
                      
     
-            geo_json_4baffd9d28aa72f46b4bed12c0867bc3.addTo(map_de98537d2c5ff3e5071b8bff867b9b6e);
+            geo_json_e0b6e31bc52e7c2893c2a3b472737dde.addTo(map_8f6e8b65ab04b596ea72a07a828a50f8);
         
     
-            var layer_control_71834016b1d1e4ef6511756a6c280999_layers = {
+            var layer_control_88d326c3051b14e9cd2cf0b58e0c9546_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_531c637a914ebd7fa413cceefaefd4e3,
-                    "Topographic Map" : tile_layer_97eec14bfce085e14a119c76e3866b9b,
-                    "Light Map" : tile_layer_a45eff73ac4ee33584775875fadcfd10,
-                    "Satellite Imagery" : tile_layer_8231d33c77989b8dd411c0a6bbb59420,
+                    "openstreetmap" : tile_layer_057126a7b9663c16af4647d1a63991a7,
+                    "Topographic Map" : tile_layer_de436005bae96b056e1fe4b1dd443db0,
+                    "Light Map" : tile_layer_f8151aad7c06dee56826a87c873b1b50,
+                    "Satellite Imagery" : tile_layer_6c670b5eab48d0a212f100cb0b542fa0,
                 },
                 overlays :  {
-                    "Alunite (0-0.5%)" : geo_json_4baffd9d28aa72f46b4bed12c0867bc3,
+                    "Alunite (0-0.5%)" : geo_json_e0b6e31bc52e7c2893c2a3b472737dde,
                 },
             };
-            let layer_control_71834016b1d1e4ef6511756a6c280999 = L.control.layers(
-                layer_control_71834016b1d1e4ef6511756a6c280999_layers.base_layers,
-                layer_control_71834016b1d1e4ef6511756a6c280999_layers.overlays,
+            let layer_control_88d326c3051b14e9cd2cf0b58e0c9546 = L.control.layers(
+                layer_control_88d326c3051b14e9cd2cf0b58e0c9546_layers.base_layers,
+                layer_control_88d326c3051b14e9cd2cf0b58e0c9546_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_de98537d2c5ff3e5071b8bff867b9b6e);
+            ).addTo(map_8f6e8b65ab04b596ea72a07a828a50f8);
 
         
 </script>
